@@ -24,7 +24,6 @@ import javax.ws.rs.core.MediaType;
 @Path("/objects/apiobject")
 @RequestScoped
 public class ApiTestService {
-    private List<PublicApiObject> objects = new ArrayList<>();
     
     @GET
     @Path("/{id}")
